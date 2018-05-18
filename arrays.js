@@ -19,5 +19,5 @@ return chocolateBars;
 }
 
 function accessElementInArray(chocolateBars){
-return ()
+return (chocolateBars[2]);
 }

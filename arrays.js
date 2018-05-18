@@ -1,4 +1,4 @@
-var chocolateBars = ["snickers"[0], "hundred grand"[1], "" "skittles"];
+var chocolateBars = ["snickers"[0], "hundred grand"[1], "kitkat"[2], "skittles"[3]];
 
 function addElementToBeginningOfArray(chocolateBars){
 return ["foo", ...chocolateBars];
@@ -18,6 +18,6 @@ chocolateBars.push("foo");
 return chocolateBars;
 }
 
-function accessElementInArray(chocolateBars, 
-console.log(chocolateBars 
+function accessElementInArray(chocolateBars){
+console.log(chocolateBars [2]);
 }
